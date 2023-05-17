@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:100vw;
+    margin:auto;
+    height:auto;
+}
+
+#body{
+    margin:auto;
+    width:75%;
+    height:100vh;
+    background-color:grey;
+}
+
+#header{
+    height:12vh;
+    background-color:  gainsboro;
+    display:flex;
+    align-items: center;
+}
+
+.headerbtn{
+    height:6vh;
+    width: 7vw;
+    margin-left:25px;
+    background-color:steelblue;
+    text-align: center;
+    border-radius: 12px;
+}
+
+
+#text1{
+    height:30vh;
+    width:80%;
+    background-color: tomato;
+    margin:auto;
+}
+
+#img{
+    height:40vh;
+    width:80%;
+    margin:auto;
+    margin-top: 10px;
+}
