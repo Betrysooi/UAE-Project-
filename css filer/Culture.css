@@ -18,8 +18,8 @@ body {
     align-items: center;
 }
 
-.anchor {
-    width: 6vw;
+.btn {
+    width: 8vw;
     height:50%;
     background-color: snow;
     border: black 2px solid;
@@ -27,7 +27,7 @@ body {
     text-align: center;
 }
 
-.anchor:hover{background-color:rgb(200,200,200)};
+.btn:hover{background-color:rgb(200,200,200)};
 
 #main {
     margin:auto;
