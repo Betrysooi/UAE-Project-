@@ -18,25 +18,28 @@ body {
     align-items: center;
 }
 
-.anchor {
+.btn {
     width: 6vw;
     height:50%;
     background-color:white;
     border: black 2px solid;
     border-radius: 10px;
     text-align: center;
-    transition: all 0,5s;
 }
 
-.anchor:hover{background-color:rgb(200,200,200)};
+.btn:hover{background-color:rgb(200,200,200)};
 
 #main {
     margin:auto;
     width: 95%;
+
 }
+
 h1 {
     text-align: center;
 }
-img {
-    width: 100%;
+
+#img1{
+    height:40vh;
+    width: 40%;
 }
