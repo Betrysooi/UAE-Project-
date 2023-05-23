@@ -16,7 +16,7 @@ body{
 
 #header{
     height:12vh;
-    background-color:  gainsboro;
+    background-color:gainsboro;
     display:flex;
     align-items: center;
 }
@@ -28,6 +28,10 @@ body{
     background-color:steelblue;
     text-align: center;
     border-radius: 12px;
+}
+
+#Rubrik{
+    text-align: center;
 }
 
 #text1{
@@ -42,7 +46,13 @@ body{
     width:70%;
     margin:auto;
     margin-top: 10px;
-    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#image1{
+    height:100%;
+    width: 90%;
 }
 
 #text2{
