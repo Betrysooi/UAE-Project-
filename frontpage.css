@@ -1,0 +1,64 @@
+
+body{
+    width:100vw;
+    margin:0;
+    padding:0;
+    height:auto;
+    max-width: 100%;
+}
+
+#main{
+    margin:auto;
+    width:75%;
+    height:150vh;
+    background-color:grey;
+}
+
+#header{
+    height:12vh;
+    background-color:gainsboro;
+    display:flex;
+    align-items: center;
+}
+
+.headerbtn{
+    height:6vh;
+    width: 7vw;
+    margin-left:25px;
+    background-color:steelblue;
+    text-align: center;
+    border-radius: 12px;
+}
+
+#Rubrik{
+    text-align: center;
+}
+
+#text1{
+    height:30vh;
+    width:70%;
+    background-color: white;
+    margin:auto;
+}
+
+#img{
+    height:40vh;
+    width:70%;
+    margin:auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#image1{
+    height:100%;
+    width: 90%;
+}
+
+#text2{
+    height:40vh;
+    width:70%;
+    margin:auto;
+    margin-top: 10px;
+    background-color: white;
+}
