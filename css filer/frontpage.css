@@ -1,64 +1,41 @@
-
-body{
-    width:100vw;
-    margin:0;
-    padding:0;
-    height:auto;
-    max-width: 100%;
-}
-
-#main{
-    margin:auto;
-    width:75%;
-    height:150vh;
-    background-color:grey;
-}
-
-#header{
-    height:12vh;
-    background-color:gainsboro;
+body {
+    background-image: url(../Images/Bild1.jpg);     /*placeholder bild*/
     display:flex;
-    align-items: center;
 }
-
-.headerbtn{
-    height:6vh;
-    width: 7vw;
-    margin-left:25px;
-    background-color:steelblue;
-    text-align: center;
-    border-radius: 12px;
-}
-
-#Rubrik{
-    text-align: center;
-}
-
-#text1{
-    height:30vh;
-    width:70%;
+#page {
+    margin: auto;
     background-color: white;
-    margin:auto;
-}
-
-#img{
-    height:40vh;
-    width:70%;
-    margin:auto;
-    margin-top: 10px;
-    display: flex;
+    width:60%;
+    height: 100%;
     justify-content: center;
 }
-
-#image1{
-    height:100%;
-    width: 90%;
+#header {
+    width:100%;
+    height: 12vh;
+    background-color: rgb(49, 49, 49);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.anchor {
+    width: 6vw;
+    height:50%;
+    background-color: snow;
+    border: black 2px solid;
+    border-radius: 10px;
+    text-align: center;
 }
 
-#text2{
-    height:40vh;
-    width:70%;
+.anchor:hover{background-color:rgb(200,200,200)};
+
+#main {
     margin:auto;
-    margin-top: 10px;
-    background-color: white;
+    width: 95%;
+}
+h1 {
+    text-align: center;
+}
+img {
+    width: 100%;
 }

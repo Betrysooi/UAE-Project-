@@ -21,11 +21,15 @@ body {
 .anchor {
     width: 6vw;
     height:50%;
-    background-color: snow;
+    background-color:white;
     border: black 2px solid;
     border-radius: 10px;
     text-align: center;
+    transition: all 0,5s;
 }
+
+.anchor:hover{background-color:rgb(200,200,200)};
+
 #main {
     margin:auto;
     width: 95%;
