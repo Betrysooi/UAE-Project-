@@ -1,0 +1,86 @@
+body {
+    background-image: url(../Images/Bild1.jpg);     /*placeholder bild*/
+    display:flex;
+}
+
+#page {
+    margin: auto;
+    background-color: white;
+    width:60%;
+    height: 100%;
+    justify-content: center;
+}
+
+#header {
+    width:100%;
+    height: 12vh;
+    background-color: rgb(49, 49, 49);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    width: 8vw;
+    height:50%;
+    background-color:white;
+    border: black 2px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn:hover{background-color:rgb(200,200,200)};
+
+#main {
+    margin:auto;
+    width: 95%;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px turquoise;
+}
+
+#img1{
+    height:38vh;
+    width: 40%;
+    border: 2.5px solid black;
+    border-radius:15px;
+}
+
+#text2{
+    height:40vh;
+    width: 100%;
+    background-color: white;
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+#img2{
+    height:40vh;
+    width: 40%;
+    border: 2.5px solid black;
+    border-radius:15px;
+}
+
+#text3{
+    height:35vh;
+    width: 30vw;
+    background-color: white;
+    display:flex;
+    margin-top:10px;
+}
+
+#img3{
+    height:40vh;
+    width: 40%;
+    border: 2.5px solid black;
+    border-radius:15px;
+}
+
+#text4{
+    height:35vh;
+    width: 30vw;
+    background-color: white;
+    display:flex;
+}

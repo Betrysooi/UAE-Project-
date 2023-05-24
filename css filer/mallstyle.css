@@ -1,0 +1,41 @@
+body {
+    background-image: url(../Images/Bild1.jpg);     /*placeholder bild*/
+    display:flex;
+}
+#page {
+    margin: auto;
+    background-color: white;
+    width:60%;
+    height: 100%;
+    justify-content: center;
+}
+#header {
+    width:100%;
+    height: 12vh;
+    background-color: rgb(49, 49, 49);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    width: 8vw;
+    height:50%;
+    background-color: snow;
+    border: black 2px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn:hover{background-color:rgb(200,200,200)};
+
+#main {
+    margin:auto;
+    width: 95%;
+}
+h1 {
+    text-align: center;
+}
+img {
+    width: 100%;
+}
