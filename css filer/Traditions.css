@@ -46,14 +46,19 @@ h1 {
     width: 40%;
     border: 2.5px solid black;
     border-radius:15px;
+    margin:10px;
 }
 
 #text2{
     height:40vh;
     width: 100%;
-    background-color: white;
     display:flex;
     flex-direction: row-reverse;
+    margin-bottom: 10px;
+}
+
+#text2>p{
+    margin:10px;
 }
 
 #img2{
@@ -61,14 +66,19 @@ h1 {
     width: 40%;
     border: 2.5px solid black;
     border-radius:15px;
+    margin:10px;
 }
 
 #text3{
     height:40vh;
     width: 100%;
-    background-color: white;
     display:flex;
-    margin-top:10px;
+    margin-bottom: 10px;
+
+}
+
+#text3>p{
+    margin:10px;
 }
 
 #img3{
@@ -76,12 +86,18 @@ h1 {
     width: 40%;
     border: 2.5px solid black;
     border-radius:15px;
+    margin:10px;
 }
 
 #text4{
-    height:40vh;
+    height:45vh;
     width: 100%;
-    background-color: white;
     display:flex;
     flex-direction: row-reverse;
+    margin-bottom: 10px;
+
+}
+
+#text4>p{
+    margin:10px;
 }
