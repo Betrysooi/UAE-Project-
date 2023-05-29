@@ -4,11 +4,11 @@
 p {
     font-size: 17px
 }
-
 body {
     background-image: url(../Images/Bild1.jpg);     /*placeholder bild*/
     display:flex;
 }
+
 #page {
     margin: auto;
     background-color: white;
@@ -40,9 +40,19 @@ body {
     margin:auto;
     width: 95%;
 }
+img {
+    width: 100%;
+}
 h1 {
     text-align: center;
 }
-img {
-    width: 100%;
+.img_txt {
+    justify-content: space-between;
+    display: flex
+}
+.img_txt>.img{
+    width: 40%;
+}
+.img_txt>.txt {
+    width: 60%
 }
