@@ -32,19 +32,34 @@ body {
 #main {
     margin:auto;
     width: 95%;
+    overflow:auto;
 }
+
 h1 {
     text-align: center;
 }
+
+.container{
+    display: flex;
+    justify-content:end;
+    align-items:center;
+}
+
 #img1{
-    border-radius: 0.5px black;
+   border: 2px black;
 }
+
 #img2{
-    border-color: black;
+    border: 2px black;
 }
+#img3{
+    border:2px black;
+}
+
 #red{
     color: red;
 }
+
 #green{
     color:green;
 }
