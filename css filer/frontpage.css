@@ -1,3 +1,9 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+    font-size: 17px;
+}
 body {
     background-image: url(../Images/Bild1.jpg);     /*placeholder bild*/
     display:flex;
@@ -32,13 +38,37 @@ body {
 #main {
     margin:auto;
     width: 95%;
+    overflow:auto;
 }
+
 h1 {
     text-align: center;
 }
-img {
-    width: 100%;
+
+#img1{
+   border: 2px black;
+   display: flex;
+    justify-content:end;
+    align-items:center;
 }
+
+#img2{
+    border: 2px black;
+    display: flex;
+    justify-content:end;
+    align-items:center;
+}
+#img3{
+    border:2px black;
+    display: flex;
+    justify-content:end;
+    align-items:center;
+}
+
+#red{
+    color: red;
+}
+
 #green{
     color:green;
 }
