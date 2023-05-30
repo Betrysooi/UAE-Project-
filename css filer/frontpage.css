@@ -39,21 +39,24 @@ h1 {
     text-align: center;
 }
 
-.container{
-    display: flex;
+#img1{
+   border: 2px black;
+   display: flex;
     justify-content:end;
     align-items:center;
 }
 
-#img1{
-   border: 2px black;
-}
-
 #img2{
     border: 2px black;
+    display: flex;
+    justify-content:end;
+    align-items:center;
 }
 #img3{
     border:2px black;
+    display: flex;
+    justify-content:end;
+    align-items:center;
 }
 
 #red{
